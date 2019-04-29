@@ -1,0 +1,27 @@
+{
+  "name": "biblioteca",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cakeno/biblioteca.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cakeno/biblioteca/issues"
+  },
+  "homepage": "https://github.com/cakeno/biblioteca#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "moch": "0.0.1",
+    "mocha": "^6.1.4"
+  }
+}
