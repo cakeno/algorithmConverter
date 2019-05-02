@@ -1,7 +1,7 @@
 {
-  "name": "biblioteca",
+  "name": "algorithmconverter-cakeno",
   "version": "1.0.0",
-  "description": "",
+  "description": "convert roman numerals to integer number and integer number to roman numerals",
   "main": "index.js",
   "scripts": {
     "test": "nyc mocha"
@@ -10,7 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/cakeno/biblioteca.git"
   },
-  "author": "",
+  "keywords": [
+    "convert",
+    "roman",
+    "number"
+  ],
+  "author": "Camilla Akemi Noba",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/cakeno/biblioteca/issues"
