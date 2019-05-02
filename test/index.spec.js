@@ -3,7 +3,7 @@ var chai = require('chai');
 var expect = chai.expect;
 var index = require('index.js');
 
-describe('tests index lib', () => {
+describe('tests index', () => {
   describe('function intToRoman', () => {
     it('1 to I', () => {
       expect(index.intToRoman('1')).to.equal('I');
