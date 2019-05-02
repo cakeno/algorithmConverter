@@ -2,37 +2,71 @@ var chai = require('chai');
 var expect = chai.expect;
 var index = require('../lib/index.js');
 
-describe('teste index lib', () => {
+describe('tests index lib', () => {
   
-  describe('função cpfValidator', () => {
+  describe('function intToRoman', () => {
 
-    it('41847736807 é válido', () => {
+    it('1 to I', () => {
 
-      expect(index.cpfValidator('41847736807')).to.equal(true);
-
-    });
-
-    it('41847736800 não tem o segundo dígito válido', () => {
-
-      expect(index.cpfValidator('41847736800')).to.equal(false);
+      expect(index.intToRoman('1')).to.equal('I');
 
     });
 
-    it('41847736817 não tem o primeiro dígito válido', () => {
+    it('11 to XI', () => {
 
-      expect(index.cpfValidator('41847736817')).to.equal(false);
-
-    });
-
-    it('4184773680 falta 1 número', () => {
-
-      expect(index.cpfValidator('4184773680')).to.equal(false);
+      expect(index.intToRoman('11')).to.equal('XI');
 
     });
 
-    it('418477368022 tem 1 número a mais', () => {
+    it('111 to CXI', () => {
 
-      expect(index.cpfValidator('418477368022')).to.equal(false);
+      expect(index.intToRoman('111')).to.equal('CXI');
+
+    });
+
+    it('1111 to MCXI', () => {
+
+      expect(index.intToRoman('1111')).to.equal('MCXI');
+
+    });
+
+    it('3111 to MMMCXI', () => {
+
+      expect(index.intToRoman('3111')).to.equal('MMMCXI');
+
+    });
+
+  });
+
+  describe('function romanToInt', () => {
+
+    it('I to 1', () => {
+
+      expect(index.romanToInt('I')).to.equal(1);
+
+    });
+
+    it('XI to 11', () => {
+
+      expect(index.romanToInt('XI')).to.equal(11);
+
+    });
+
+    it('CXI to 111', () => {
+
+      expect(index.romanToInt('CXI')).to.equal(111);
+
+    });
+
+    it('MCXI to 1111', () => {
+
+      expect(index.romanToInt('MCXI')).to.equal(1111);
+
+    });
+
+    it('MMMCMXCIX to 3999', () => {
+
+      expect(index.romanToInt('MMMCMXCIX')).to.equal(3999);
 
     });
 

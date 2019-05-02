@@ -1,0 +1,1 @@
+{"processes":{"62657af5-7337-4c07-9c36-292b9b6f647d":{"parent":null,"children":["74c178a7-ddab-40b5-b301-5ea673f2446a"]},"74c178a7-ddab-40b5-b301-5ea673f2446a":{"parent":"62657af5-7337-4c07-9c36-292b9b6f647d","children":[]}},"files":{"/Users/noba/Documents/Laboratoria/algorithmConverter/lib/index.js":["74c178a7-ddab-40b5-b301-5ea673f2446a"]},"externalIds":{}}
