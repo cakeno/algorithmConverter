@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 var chai = require('chai');
 var expect = chai.expect;
-var index = require('../lib/index.js');
+var index = require('index.js');
 
 describe('tests index lib', () => {
   describe('function intToRoman', () => {

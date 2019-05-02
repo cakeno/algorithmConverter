@@ -16,7 +16,7 @@ $  npm install algorithmconverter-cakeno
 #### Transformar números inteiros em algaritmos romanos
 ```node
 
-> const intToRoman = require("../lib/index.js");
+> const intToRoman = require("algorithmconverter-cakeno");
 > console.log(intToRoman("3999"))
 > // returns "MMMCMXCIX"
 
@@ -25,7 +25,7 @@ $  npm install algorithmconverter-cakeno
 #### Transformar algaritmos romanos em números inteiros
 ```node
 
-> const romanToInt = require("../lib/index.js");
+> const romanToInt = require("algorithmconverter-cakeno");
 > console.log(romanToInt("MMMCMXCIX"))
 > // returns "3999"
 
