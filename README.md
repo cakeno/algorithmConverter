@@ -1,4 +1,4 @@
-# Conversor de algoritmos romanos v.1.0.2
+# Conversor de algoritmos romanos v.1.0.3
 
 **Esta biblioteca se destina à conversão de algaritmos romanos para números inteiros, números inteiros para algaritmos romanos.**
 Na versão atual é capaz de converter números inteiros de 1 a 3999 para seus equivalentes em algaritmos romanos e vice-versa.
@@ -16,8 +16,8 @@ $  npm install algorithmconverter-cakeno
 #### Transformar números inteiros em algaritmos romanos
 ```node
 
-> const intToRoman = require("algorithmconverter-cakeno");
-> console.log(intToRoman("3999"))
+> const convert = require("algorithmconverter-cakeno");
+> convert.intToRoman("3999")
 > // returns "MMMCMXCIX"
 
 ```
@@ -25,8 +25,8 @@ $  npm install algorithmconverter-cakeno
 #### Transformar algaritmos romanos em números inteiros
 ```node
 
-> const romanToInt = require("algorithmconverter-cakeno");
-> console.log(romanToInt("MMMCMXCIX"))
+> const convert = require("algorithmconverter-cakeno");
+> convert.romanToInt("MMMCMXCIX")
 > // returns "3999"
 
 ```

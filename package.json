@@ -1,6 +1,6 @@
 {
   "name": "algorithmconverter-cakeno",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "convert roman numerals to integer number and integer number to roman numerals",
   "main": "index.js",
   "scripts": {
